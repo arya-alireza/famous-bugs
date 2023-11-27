@@ -1,10 +1,10 @@
-# famous-bugs :bug: :honeybee: :ant:
+# باگ‌های مشهور :bug: :honeybee: :ant:
 
 [![Markdown Linter](https://github.com/umutphp/famous-bugs/actions/workflows/markdown-linter-action.yml/badge.svg)](https://github.com/umutphp/famous-bugs/actions/workflows/markdown-linter-action.yml) [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](./.github/CODE_OF_CONDUCT.md)
 
 فهرستی از اشکالات و خرابی‌هایی که می‌تواند برای توسعه‌دهندگان مفید باشد.
 
-[ترجمه‌ها](#ترجمه‌ها): [🇹🇷](https://github.com/umutphp/famous-bugs/blob/master/README-tr.md), [🇮🇷](https://github.com/umutphp/famous-bugs/blob/master/README-fa.md)
+[ترجمه‌ها](#ترجمه): [🇹🇷](https://github.com/umutphp/famous-bugs/blob/master/README-tr.md), [🇮🇷](https://github.com/umutphp/famous-bugs/blob/master/README-fa.md)
 
 ---
 
@@ -13,13 +13,13 @@
 
 ## فهرست مطالب
 
-- [پیش‌گفتار](#پیش‌گفتار)
+- [پیش‌گفتار](#پیش-گفتار)
 - [مشکلات](#مشکلات)
   - [Thundering Herd Problem](#thundering-herd-problem)
   - [N+1 Query Problem](#n1-query-problem)
   - [Single Point of Failure Problem](#single-point-of-failure-problem)
   - [Year 2000 Problem](#year-2000-problem)
-- [عدم‌دسترسی و هک‌ها](#عدم‌دسترسی-و-هک‌ها)
+- [عدم‌دسترسی و هک‌ها](#عدم-دسترسی-و-هک)
   - [Gangnam Style Broke YouTube](#gangnam-style-broke-youtube)
   - [Mysterious Traffic Of A Flower Image On Wikimedia](#mysterious-traffic-of-a-flower-image-on-wikimedia)
   - [NPM Leftpad Breakage](#npm-leftpad-breakage)
@@ -30,7 +30,7 @@
   - [October 4th Facebook Outage](#october-4th-facebook-outage)
   - [Cloudflare Outage 2019](#cloudflare-outage-2019)
   - [Equifax Data Breach 2017](#equifax-data-breach-2017)
-- [باگ‌ها و وورم‌ها](#باگ‌ها-و-وورم‌ها)
+- [باگ‌ و ورم](#باگ-و-ورم)
   - [The First Bug](#the-first-bug)
   - [The Explosion of the Ariane 5](#the-explosion-of-the-ariane-5)
   - [Metric System Mess Of NASA’s Mars Climate Orbiter](#metric-system-mess-of-nasas-mars-climate-orbiter)
@@ -49,19 +49,19 @@
 
 ---
 
-## پیش‌گفتار
+## پیش گفتار
 
 به عنوان توسعه‌دهندگان نرم‌افزار،‌ ما به سادگی رفع باگ‌ها را به عنوان بخشی از کار خود در نظر می‌گیریم و با توسعه‌دادن روش‌ها به دنبال حل مشکلات هستیم. فهرست پیش رو از اشکالات و خرابی‌هایی تهیه شده است که می‌تواند برای توسعه‌دهندگان مفید باشد. امیدوارم این‌ حرکت به عنوان ارزشی جدید در جامعه برنامه‌نویسان تلقی شود.
 
 ## مشکلات
 
-### Thundering Herd Problem
+### مشکل رعد و برق گله‌ای
 
-> Bieber would post a photo, and so many Beliebers would "Like" it that Instagram's computers couldn't keep up.
+> بیبر تصویری پست می‌کرد و طرفداران وی (بلیبرها) تصویر را «لایک» می‌کردند اما رایانه‌های اینستاگرام توان حفظ کردن آن را نداشتند.
 >
 > [Wired.com](https://www.wired.com/2015/11/how-instagram-solved-its-justin-bieber-problem/)
 
-When Justin Bieber posts a photo, so many Beliebers would "Like" it that causes tremendous amount of notifications, queries and processes. This problem faced by the Instagram team is actually a very good example of [the thundering herd problem](https://en.wikipedia.org/wiki/Thundering_herd_problem). They did many improvements to avoid this problem happen again and explained in this [article](https://instagram-engineering.com/instagration-pt-2-scaling-our-infrastructure-to-multiple-data-centers-5745cbad7834).
+زمانی که جاستین بیبر تصویری را پست می‌کند، تعداد زیادی از بلیبرها تصویر را «لایک» می‌کنند که باعث می‌شود تا تعداد بسیار زیادی اعلان، دستورات و فر‌آیندها اجرا شود. این مشکل که تیم اینستاگرام با آن درگیر بود مثال بسیار خوبی از مسئله [رعد و برق گله‌ای](https://en.wikipedia.org/wiki/Thundering_herd_problem) است. آن‌ها برای جلوگیری از این مشکل، کارهای بسیار و پیشرفت‌های زیادی انجام دادند که می‌توانید جزییات آن را در این [مقاله](https://instagram-engineering.com/instagration-pt-2-scaling-our-infrastructure-to-multiple-data-centers-5745cbad7834) بخوانید.
 
 توضیحات بیشتر:
 
@@ -107,7 +107,7 @@ The Year 2000 problem (also known as the Y2K problem, the Millennium bug, Y2K bu
 
 - [Year 2000 Problem at Wikipedia](https://en.wikipedia.org/wiki/Year_2000_problem)
 
-## عدم‌دسترسی و هک‌ها
+## عدم دسترسی و هک
 
 ### Gangnam Style Broke YouTube
 
@@ -229,7 +229,7 @@ In 2017, Equifax, one of the largest consumer credit reporting agencies, experie
 - [EQUIFAX DATA BREACH SETTLEMENT](https://www.equifaxbreachsettlement.com/)
 - [2017 Equifax data breach](https://en.wikipedia.org/wiki/2017_Equifax_data_breach)
 
-## باگ‌ها و وورم‌ها
+## باگ و ورم
 
 ### The First Bug
 
@@ -418,7 +418,7 @@ The MySpace Worm is an XSS worm that was designed to propagate across the social
 
 - [The MySpace Worm](https://samy.pl/myspace/)
 
-## ترجمه‌ها
+## ترجمه
 
 This is available in a number of languages.
 
