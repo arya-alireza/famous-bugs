@@ -13,13 +13,13 @@
 
 ## فهرست مطالب
 
-- [پیش‌گفتار](#پیش-گفتار)
+- [پیش‌گفتار](#پیشگفتار)
 - [مشکلات](#مشکلات)
-  - [Thundering Herd Problem](#thundering-herd-problem)
+  - [مشکل رعد و برق گله‌ای](#مشکل-رعد-و-برق-گلهای)
   - [N+1 Query Problem](#n1-query-problem)
   - [Single Point of Failure Problem](#single-point-of-failure-problem)
   - [Year 2000 Problem](#year-2000-problem)
-- [عدم‌دسترسی و هک‌ها](#عدم-دسترسی-و-هک)
+- [عدم‌دسترسی و هک‌ها](#عدمدسترسی-و-هک)
   - [Gangnam Style Broke YouTube](#gangnam-style-broke-youtube)
   - [Mysterious Traffic Of A Flower Image On Wikimedia](#mysterious-traffic-of-a-flower-image-on-wikimedia)
   - [NPM Leftpad Breakage](#npm-leftpad-breakage)
@@ -42,14 +42,14 @@
   - [The Forgotten Space Character](#the-forgotten-space-character)
   - [Rachel True's Problem On iCloud](#rachel-trues-problem-on-icloud)
   - [The MySpace Worm (Samy Worm)](#the-myspace-worm-samy-worm)
-- [ترجمه‌ها](#ترجمه‌ها)
+- [ترجمه‌ها](#ترجمهها)
 - [توسعه](#توسعه)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ---
 
-## پیش گفتار
+## پیش‌گفتار
 
 به عنوان توسعه‌دهندگان نرم‌افزار،‌ ما به سادگی رفع باگ‌ها را به عنوان بخشی از کار خود در نظر می‌گیریم و با توسعه‌دادن روش‌ها به دنبال حل مشکلات هستیم. فهرست پیش رو از اشکالات و خرابی‌هایی تهیه شده است که می‌تواند برای توسعه‌دهندگان مفید باشد. امیدوارم این‌ حرکت به عنوان ارزشی جدید در جامعه برنامه‌نویسان تلقی شود.
 
@@ -107,7 +107,7 @@ The Year 2000 problem (also known as the Y2K problem, the Millennium bug, Y2K bu
 
 - [Year 2000 Problem at Wikipedia](https://en.wikipedia.org/wiki/Year_2000_problem)
 
-## عدم دسترسی و هک
+## عدم‌دسترسی و هک
 
 ### Gangnam Style Broke YouTube
 
@@ -418,9 +418,9 @@ The MySpace Worm is an XSS worm that was designed to propagate across the social
 
 - [The MySpace Worm](https://samy.pl/myspace/)
 
-## ترجمه
+## ترجمه‌ها
 
-This is available in a number of languages.
+این فهرست در زبان‌های دیگر هم ترجمه شده و قابل دسترس است.
 
 | زبان                                                                               | مترجم                              |
 | -------------------------------------------------------------------------------------- | --------------------------------------- |
@@ -431,7 +431,7 @@ If you would like to update a translation or add a new language, just [open a pu
 
 ## توسعه
 
-Please do contribute! :pray:
+لطفا توسعه دهید :pray:
 
 [Raise an issue](https://github.com/umutphp/famous-bugs/issues/new) if you'd like to suggest an addition or change, or [Open a pull request](https://github.com/umutphp/famous-bugs/pulls) to add your own.
 
