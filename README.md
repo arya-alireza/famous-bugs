@@ -4,7 +4,7 @@
 
 A curated list of bugs, problems and failures that developers may find useful to know.
 
-[Translations](#translations): [🇹🇷](https://github.com/umutphp/famous-bugs/blob/master/README-tr.md)
+[Translations](#translations): [🇹🇷](https://github.com/umutphp/famous-bugs/blob/master/README-tr.md), [🇮🇷](https://github.com/umutphp/famous-bugs/blob/master/README-fa.md)
 
 ---
 

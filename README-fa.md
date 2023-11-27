@@ -4,23 +4,22 @@
 
 فهرستی از اشکالات و خرابی‌هایی که می‌تواند برای توسعه‌دهندگان مفید باشد.
 
-[ترجمه‌ها](#translations): [🇹🇷](https://github.com/umutphp/famous-bugs/blob/master/README-tr.md)
-[ترجمه‌ها](#translations): [FA](https://github.com/umutphp/famous-bugs/blob/master/README-fa.md)
+[ترجمه‌ها](#ترجمه‌ها): [🇹🇷](https://github.com/umutphp/famous-bugs/blob/master/README-tr.md), [🇮🇷](https://github.com/umutphp/famous-bugs/blob/master/README-fa.md)
 
 ---
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-## Table Of Contents
+## فهرست مطالب
 
-- [پیش‌گفتار](#introduction)
-- [مشکلات](#problems)
+- [پیش‌گفتار](#پیش‌گفتار)
+- [مشکلات](#مشکلات)
   - [Thundering Herd Problem](#thundering-herd-problem)
   - [N+1 Query Problem](#n1-query-problem)
   - [Single Point of Failure Problem](#single-point-of-failure-problem)
   - [Year 2000 Problem](#year-2000-problem)
-- [عدم‌دسترسی و هک‌ها](#outages-and-hacks)
+- [عدم‌دسترسی و هک‌ها](#عدم‌دسترسی-و-هک‌ها)
   - [Gangnam Style Broke YouTube](#gangnam-style-broke-youtube)
   - [Mysterious Traffic Of A Flower Image On Wikimedia](#mysterious-traffic-of-a-flower-image-on-wikimedia)
   - [NPM Leftpad Breakage](#npm-leftpad-breakage)
@@ -31,7 +30,7 @@
   - [October 4th Facebook Outage](#october-4th-facebook-outage)
   - [Cloudflare Outage 2019](#cloudflare-outage-2019)
   - [Equifax Data Breach 2017](#equifax-data-breach-2017)
-- [باگ‌ها و وورم‌ها](#bugs-and-worms)
+- [باگ‌ها و وورم‌ها](#باگ‌ها-و-وورم‌ها)
   - [The First Bug](#the-first-bug)
   - [The Explosion of the Ariane 5](#the-explosion-of-the-ariane-5)
   - [Metric System Mess Of NASA’s Mars Climate Orbiter](#metric-system-mess-of-nasas-mars-climate-orbiter)
@@ -43,8 +42,8 @@
   - [The Forgotten Space Character](#the-forgotten-space-character)
   - [Rachel True's Problem On iCloud](#rachel-trues-problem-on-icloud)
   - [The MySpace Worm (Samy Worm)](#the-myspace-worm-samy-worm)
-- [ترجمه‌ها](#translations)
-- [توسعه](#contributing)
+- [ترجمه‌ها](#ترجمه‌ها)
+- [توسعه](#توسعه)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -52,7 +51,7 @@
 
 ## پیش‌گفتار
 
-به عنوان توسعه‌دهندگان نرم‌افزار،‌ ما به سادگی رفع باگ‌ها را به عنوان بخشی از کار خود در نظر بگیریم و با توسعه‌دادن روش‌ها به دنبال حل مشکلات باشیم. فهرست پیش رو از اشکالات و خرابی‌هایی تهیه شده است که می‌تواند برای توسعه‌دهندگان مفید باشد. امیدوارم این‌ حرکت به عنوان ارزشی جدید در جامعه برنامه‌نویسان تلقی شود.
+به عنوان توسعه‌دهندگان نرم‌افزار،‌ ما به سادگی رفع باگ‌ها را به عنوان بخشی از کار خود در نظر می‌گیریم و با توسعه‌دادن روش‌ها به دنبال حل مشکلات هستیم. فهرست پیش رو از اشکالات و خرابی‌هایی تهیه شده است که می‌تواند برای توسعه‌دهندگان مفید باشد. امیدوارم این‌ حرکت به عنوان ارزشی جدید در جامعه برنامه‌نویسان تلقی شود.
 
 ## مشکلات
 
@@ -426,11 +425,11 @@ This is available in a number of languages.
 | زبان                                                                               | مترجم                              |
 | -------------------------------------------------------------------------------------- | --------------------------------------- |
 | [🇹🇷 Türkçe / Turkish](https://github.com/umutphp/famous-bugs/blob/master/README-tr.md) | [Umut Işık](https://github.com/umutphp) |
-| [FA پارسی / Persian](https://github.com/umutphp/famous-bugs/blob/master/README-fa.md) | [Alireza Yousefi](https://github.com/arya-alireza) |
+| [🇮🇷 پارسی / Persian](https://github.com/umutphp/famous-bugs/blob/master/README-fa.md) | [Alireza Yousefi](https://github.com/arya-alireza) |
 
 If you would like to update a translation or add a new language, just [open a pull request](https://github.com/umutphp/famous-bugs/pulls).
 
-## Contributing
+## توسعه
 
 Please do contribute! :pray:
 

@@ -425,6 +425,7 @@ Bu belge birkaç dilde mevcuttur.
 | Dil                                                                                   | Çeviren                                 |
 | ------------------------------------------------------------------------------------- | --------------------------------------- |
 | [🇹🇷 Türkçe / Türkçe](https://github.com/umutphp/famous-bugs/blob/master/README-tr.md) | [Umut Işık](https://github.com/umutphp) |
+| [🇮🇷 پارسی / Persian](https://github.com/umutphp/famous-bugs/blob/master/README-fa.md) | [Alireza Yousefi](https://github.com/arya-alireza) |
 
 Bir çeviriyi güncellemek veya yeni bir dil eklemek isterseniz, [bir PR açmanız yeterlidir](https://github.com/umutphp/famous-bugs/pulls) .
 
